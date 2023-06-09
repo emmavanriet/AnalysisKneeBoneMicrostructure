@@ -455,9 +455,9 @@ if __name__ == "__main__":
             warnings.warn('Not the right amount of arguments were given. '
             'As a reminder, the input should be '
             'python Separation_STB.py <"link to input folder"> <"bone"> '
-                          '<radius> <kernel sizes> <threshold>')
+                          '<radius> <"kernel sizes"> <threshold>')
         else:
             warnings.warn('An error occurred during the STB segmentation. '
             'Please check the input. As a reminder, the input should be '
             'python Separation_STB.py <"link to input folder"> <"bone"> '
-                          '<radius> <kernel sizes> <threshold>')
+                          '<radius> <"kernel sizes"> <threshold>')
